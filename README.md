@@ -1,4 +1,4 @@
-# Ariori
+# Apriori
 Apriori is a popular algorithm for mining frequent itemsets from transaction databases. In this project, I have implemented the algorithm
 as specified in Chapter 6 of Han et al.’s book [1].
 
