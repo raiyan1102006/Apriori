@@ -147,7 +147,9 @@ if __name__=='__main__':
     support = 0.23
     L,C = apriori(dict_table,support=support)
     number_of_frequent_itemsets = sum(len(x) for x in L)
+    print(" ")
     print("Number of frequent itemsets:")
     print(number_of_frequent_itemsets)
+    print(" ")
     print("Frequent itemsets with support: ")
     print(json.dumps(C, indent=4))
